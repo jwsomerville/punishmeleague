@@ -2,13 +2,15 @@
 export const leagueID = "904476469135470592"; // your league ID
 export const leagueName = "PunishMe League"; // your league name
 export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the home of the PunishMe League.</p>
-  <p>Page is still a work in progress, but most pages and data are accurate.</p>
+  <p>Site is still a work in progress, but most pages and data are accurate.</p>
+  <p>**Current Known Bugs</p>
+  <p>*Points Per Game for your team are halved due to extra game vs league medians</p>
 `;
 
 /*   STEP 3   */
